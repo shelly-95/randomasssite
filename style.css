@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background: #1f1f1f;
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  width: 90%;
+  padding: 40px;
+}
+
+
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.sub {
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #2c2c2c;
+  border: 1px solid #444;
+  color: #e5e5e5;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #3a3a3a;
+  transform: translateY(-2px);
+}
+
+.hidden {
+  display: none;
+}
+
+#content {
+  margin-top: 40px;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.matrix {
+  margin-top: 20px;
+  background: black;
+  color: #00ff00;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 12px;
+  height: 200px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+/* Make inputs and buttons flexible */
+input, select {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2c2c2c;
+  color: #e5e5e5;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .matrix {
+    height: 150px;
+    font-size: 10px;
+  }
+}
+

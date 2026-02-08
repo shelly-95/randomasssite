@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Point</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1 class="glow">Private server accessed.</h1>
+    <p class="sub">╰(*°▽°*)╯.</p>
+    <button onclick="initialize()">Initialize</button>
+
+    <div id="menu" class="hidden">
+      <h2>Select Mode</h2>
+      <div class="buttons">
+        <button onclick="showMode('tennis')">🎾 Tennis Mode</button>
+        <button onclick="showMode('cole')">🎧 Cole Mode</button>
+        <button onclick="showMode('dev')">💻 Developer Mode</button>
+      </div>
+    </div>
+
+    <div id="content"></div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
