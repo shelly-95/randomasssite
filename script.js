@@ -96,7 +96,7 @@ function startRound2() {
     <hr>
     <h4>Round 2: Quick Q&A </h4>
 
-    <p>Is "The Fall Off" gonna to be a classic?</p>
+    <p>Is "The Fall Off" gonna be a classic?</p>
     <button onclick="fallOffAnswer('Nahh.')">Nahh</button>
     <button onclick="fallOffAnswer('Need to hear it first.')">Need to hear it first</button>
     <button onclick="fallOffAnswer('Already legendary.')">Already legendary</button>
@@ -127,3 +127,4 @@ function breakSystem() {
 
   matrix.innerHTML = code;
 }
+
